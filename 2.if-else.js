@@ -1,41 +1,38 @@
 //1. Write a program to check whether the given input number is divisible by 3 or else shows a message (number is not divisible by 3)
-
 // var num = prompt("enter a number");
-//     if(num%3==0){
+//     if(num%3==0){  // '%' Modulus (Division Remainder)
 //         alert("number is divisible by 3");
 //     }
 //     else{
 //        alert("number is not divisible by 3");
 //     }
 
-// Q2 Write a program to check whether the given input is an odd or even number
 
-// var num = prompt("Enter a number");
 
+//2. Write a program to check whether the given input is an odd or even number
+// alert("To Check the number either Even or Odd")
+// var num = +prompt("Enter a number");
 // if(num%2==0){
-//     alert("this number is even")
+//     alert("This is an Even Number. ")
 // }
 // else{
-//     alert("this number is odd")
+//     alert("This is an ODD Number.")
 // }
 
-// Q3 write an if/else statement with the following condition: If the variable age is greater than 18, output "old enough", otherwise output "Too young".
 
-// var age = prompt("enter your age");
 
+//3. write an if/else statement with the following condition: If the variable age is greater than 18, output "old enough", otherwise output "Too young".
+// var age = prompt("Enter your age:");
 // if(age >= 18){
-//     console.log("old enough");
-    
-// }else{
-//     console.log("too young");
-    
+//     console.log("Old Enough!");
+// }
+// else{
+//     console.log("Too Young!");
 // }
 
-// Q4 
-
+//4. Write a program that prompts the user for their name, and then displays a special greeting to that person if their name is the same as yours. If the name entered by the user is anything other than your name, your code should not produce any output.
 // var name = "Asha";
-// var username = prompt("Enter your name");
-
+// var username = prompt("Enter your name {hint: Asha}");
 // if(name==username){
 //     alert("That's Nice☻! Your name is same as mine.")
 // }
@@ -44,32 +41,37 @@
 // }
 
 
-// Q5
-// var num = prompt("enter a number");
+
+//5. Write a program to check whether the given input number is divisible by 3 or not by using Switch Case statements. Show a message “Number is not divisible by 3” or “Number is divisible by 3”.
+// var num = +prompt("Enter any number");
 //     if(num%3==0){
-//         alert("number is divisible by 3");
+//         alert("Number is divisible by 3.");
 //     }
 //     else{
-//        alert("number is not divisible by 3");
+//        alert("Number is not divisible by 3.");
 //     }
 
 
-// Q6
-// var input =prompt("Enter")
+// 6. Write a program that takes a character(number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122)
+// var input = prompt("Enter any number, lowercase letter or uppercase letter")
 // var firstAplha = input.slice().toUpperCase()
 // var secondAplha = input.slice().toLowerCase()
 // if(input>=0){
-//     alert("It is a number")
+//     alert("It is a number.")
 // }
 // else if(input==firstAplha){
-//     alert("It is a upper case")
+//     alert("It is a upper case.")
 // }
-// else {
-//     alert("It is a lower case")
+// else if(input==secondAplha){
+//     alert("It is a lower case.")
+// }
+// else{
+//     alert("Wrong Input")
 // }
 
 
-// Q7
+// 7. Write a program to create a calculator for +, -, *, /, % using switch case statements. (number1, number2 and operator will be input)
+// alert("This is a Calculator")
 // var first =+prompt("Enter first number")
 // var second =+prompt("Enter second number")
 // var operator =prompt("Enter operator")
@@ -94,7 +96,7 @@
 
 
 
-// Q8
+// Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements
 // var time =prompt("Enter time according to 24 hrs format")
 // if(time> 6){
 //     alert("Good night")
@@ -114,14 +116,19 @@
 
 
 
-// Q9
-// var year = +prompt("Enter year");
-// if(year==2027 || year==2031){
-//     alert("It is a leap year")
-// }
-// else{
-//     alert("It is not a leap year")
-// }
+// 9. Write a program that takes a calendar year in YYYY format in a variable. Check & notify the user whether it is a leap year or not.
+var year = +prompt("Enter year in YYYY format");
+var leap = (2024+4)
+var lap= leap++
+if(year==lap){
+    alert("It is a leap year")
+}
+else if(year==(2028-4)){
+    alert("It is a leap year")
+}
+else{
+    alert("It is not a leap year")
+}
 
 
 // Q10
@@ -184,20 +191,20 @@
 
 
 // Q15
-var hour = +prompt("What the current hour is? (Write in 24 hours clock format)");
+// var hour = +prompt("What the current hour is? (Write in 24 hours clock format)");
 
-if(hour>=6 && hour<=9){
-    alert("breakfast is served.")
-}
-else if(hour>=11 && hour<=13){
-    alert("Time for lunch.")
-}
-else if(hour>=17 && hour<=20){
-    alert("Its dinner time")
-}
-else{
-    alert("Sorry, you'll have to wait, or go get a snack.")
-}
+// if(hour>=6 && hour<=9){
+//     alert("breakfast is served.")
+// }
+// else if(hour>=11 && hour<=13){
+//     alert("Time for lunch.")
+// }
+// else if(hour>=17 && hour<=20){
+//     alert("Its dinner time")
+// }
+// else{
+//     alert("Sorry, you'll have to wait, or go get a snack.")
+// }
 
 // Q16
 // var enter =prompt("Enter")
